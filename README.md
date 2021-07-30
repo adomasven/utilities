@@ -13,3 +13,8 @@ Item utility functions require:
   ```
 
 Please bundle the [Zotero schema](https://github.com/zotero/zotero-schema) file with your repository, do not load it remotely.
+
+Run the example with
+```
+google-chrome --disable-web-security --allow-file-access-from-files --user-data-dir=/tmp/chromeTemvar ./example/index.html
+```
